@@ -137,3 +137,34 @@ button#intro-icon:hover {
 #close:hover {
     cursor: pointer;
 }
+
+#loader {
+    transition: opacity 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    z-index: 6;
+}
+
+#loader > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#loader > div>img {
+    width: 60em;
+    /*height: 40em;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
