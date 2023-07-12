@@ -1,7 +1,7 @@
 #home-bg {
     width: 100%;
     height: 100vh;
-    background-image: url('/assets/img/homeBackground2.jpg');
+    background-image: url('../img/homeBackground2.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -18,7 +18,7 @@ button {
 #btnPlay {
     width: 20%;
     height: 20%;
-    background-image: url('/assets/img/playButton.png');
+    background-image: url('../img/playButton.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -36,7 +36,7 @@ button {
 #carWheel {
     width: 15%;
     height: 25%;
-    background-image: url('/assets/img/carWheel.png');
+    background-image: url('../img/carWheel.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -48,7 +48,7 @@ button {
 #logo{
     width: 26%;
     height: 25%;
-    background-image: url('/assets/img/logo.png');
+    background-image: url('../img/logo.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -59,7 +59,7 @@ button {
 }
 
 button#intro-icon {
-    background-image: url('/assets/img/introbtn.png');
+    background-image: url('../img/introbtn.png');
     background-size: cover;
     background-position: center;
     z-index: 4;
@@ -123,7 +123,7 @@ button#intro-icon:hover {
 }
 
 #close {
-    background-image: url('/assets/img/closeBtn.png');
+    background-image: url('../img/closeBtn.png');
     background-size: cover;
     background-position: center;
     height: 60px;
