@@ -57,3 +57,83 @@ button {
     left: 0;
     margin: auto;
 }
+
+button#intro-icon {
+    background-image: url('/assets/img/introbtn.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 4;
+    height: 66px;
+    width: 66px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+button#intro-icon:hover {
+    height: 71px;
+    width: 71px;
+}
+
+.startup-instruction {
+    width: 40%;
+    max-height: 300px;
+    text-align: center;
+    border: 1px solid #e7423c;
+    padding: 60px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 5px 10px #888888;
+    z-index: 3;
+    display: none;
+}
+
+.startup-instruction > h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Cambria', sans-serif;
+}
+
+.startup-instruction > h2 {
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    font-family: 'Cambria', sans-serif;
+}
+
+.startup-instruction > h4 {
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    left: 0;
+    right: 0;
+    font-family: 'Cambria', sans-serif;
+}
+
+#close {
+    background-image: url('/assets/img/closeBtn.png');
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+#close:hover {
+    cursor: pointer;
+}
