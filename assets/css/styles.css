@@ -1,0 +1,59 @@
+#home-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/img/homeBackground.jfif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#btnPlay {
+    width: 20%;
+    height: 20%;
+    background-image: url('/assets/img/playButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#btnPlay:hover {
+    width: 18%;
+    height: 18%;
+}
+
+#carWheel {
+    width: 15%;
+    height: 25%;
+    background-image: url('/assets/img/carWheel.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    margin: auto;
+}
+
+#logo{
+    width: 26%;
+    height: 25%;
+    background-image: url('/assets/img/logo.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
