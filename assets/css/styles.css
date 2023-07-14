@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
 }
+
 button {
     background: transparent;
     border: none;
@@ -45,7 +46,7 @@ button {
     margin: auto;
 }
 
-#logo{
+#logo {
     width: 26%;
     height: 25%;
     background-image: url('../img/logo.png');
@@ -158,7 +159,7 @@ button#intro-icon:hover {
     margin: auto;
 }
 
-#loader > div>img {
+#loader > div > img {
     width: 60em;
     /*height: 40em;*/
     position: absolute;
