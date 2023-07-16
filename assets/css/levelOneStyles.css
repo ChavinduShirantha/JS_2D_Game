@@ -41,3 +41,78 @@
     bottom: 0;
     margin: auto;
 }
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button#btnPlayGame {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/playButton2.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: auto;
+}
+
+button#btnPlayGame:hover {
+    width: 4%;
+    height: 9%;
+}
+
+button#btnPauseGame {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/pauseButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    margin: auto;
+}
+
+button#btnPauseGame:hover {
+    width: 4%;
+    height: 8%;
+}
+
+button#btnSoundOn {
+    display: none;
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/soundOnButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 19%;
+    margin: auto;
+}
+
+button#btnSoundOn:hover {
+    width: 4%;
+    height: 8%;
+}
+
+button#btnSoundOff {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/soundOffButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 19%;
+    margin: auto;
+}
+
+button#btnSoundOff:hover {
+    width: 4%;
+    height: 8%;
+}
