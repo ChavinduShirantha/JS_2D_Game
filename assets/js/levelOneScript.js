@@ -14,6 +14,7 @@ $(document).on('keypress', function (e) {
     if (e.keyCode === 32) {
         if (moveRoadAnimationId === 0) {
             moveRoad();
+            $('#startup').attr('style', 'display : none !important');
         }
     }
 });
