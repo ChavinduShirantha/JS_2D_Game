@@ -147,3 +147,17 @@ button#btnSoundOff:hover {
     right: 0;
     margin: auto;
 }
+
+#car{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 400px;
+    left: 250px;
+    text-align: center;
+}
+
+#car img{
+    height: 200px;
+    width: 100px;
+}
