@@ -1,7 +1,7 @@
 .road {
     width: 48vw;
     height: 100vh;
-    background-image: url("/assets/img/lane.png");
+    background-image: url("../img/lane.png");
     background-size: cover;
     position: absolute;
     left: 0;
