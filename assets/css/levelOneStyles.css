@@ -7,4 +7,13 @@
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 1;
+}
+
+.background {
+    background-image: url("../img/grass.png");
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
 }
