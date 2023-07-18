@@ -13,6 +13,9 @@ function moveRoad() {
         $("#moveRoad").css("background-position-y", +roadPositionY + "px");
         score++;
         $("#score").text(score);
+        if (score >= 100) {
+            winResults();
+        }
     }, 100);
 }
 
@@ -67,6 +70,15 @@ $('#btnPlayGame').on('click', function (e) {
     sound.muted=false;
     removeBlur();
 });
+
+function winResults() {
+    $("#gameWin_title-img").css("display", "block");
+    pauseAll();
+    blurComponents();
+}
+
+
+
 
 let loader = document.getElementById("loader");
 window.addEventListener("load", function () {

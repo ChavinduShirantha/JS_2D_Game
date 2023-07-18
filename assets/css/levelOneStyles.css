@@ -34,7 +34,7 @@
     z-index: 3;
 }
 
-.startup-instruction>h1{
+.startup-instruction > h1 {
     top: 0;
     left: 0;
     right: 0;
@@ -148,7 +148,7 @@ button#btnSoundOff:hover {
     margin: auto;
 }
 
-#car{
+#car {
     height: 200px;
     width: 250px;
     position: relative;
@@ -157,7 +157,7 @@ button#btnSoundOff:hover {
     text-align: center;
 }
 
-#car img{
+#car img {
     height: 200px;
     width: 100px;
 }
@@ -190,7 +190,7 @@ button#btnSoundOff:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
 }
 
-.scoreLabel{
+.scoreLabel {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -205,4 +205,47 @@ button#btnSoundOff:hover {
     font-family: 'Teko', sans-serif;
     font-weight: bolder;
     margin: auto;
+}
+
+#gameWin_title-img {
+    display: none;
+    width: 50%;
+    height: 80%;
+    background-image: url('../img/victory.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 4;
+    animation: animate 4s linear;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
