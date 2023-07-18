@@ -161,3 +161,8 @@ button#btnSoundOff:hover {
     height: 200px;
     width: 100px;
 }
+
+.bgBlur {
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+}

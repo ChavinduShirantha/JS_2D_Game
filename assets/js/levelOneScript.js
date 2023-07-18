@@ -43,14 +43,26 @@ function pauseAll() {
     sound.pause();
 }
 
+function blurComponents() {
+    $(".background").addClass("bgBlur");
+    $(".road").addClass("bgBlur");
+}
+
+function removeBlur() {
+    $(".background").removeClass("bgBlur");
+    $(".road").removeClass("bgBlur");
+}
+
 $('#btnPauseGame').on('click', function (e) {
     pauseAll();
+    blurComponents();
 });
 
 $('#btnPlayGame').on('click', function (e) {
     moveRoad();
     sound.play();
     sound.muted=false;
+    removeBlur();
 });
 
 let loader = document.getElementById("loader");
