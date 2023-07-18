@@ -166,3 +166,43 @@ button#btnSoundOff:hover {
     filter: blur(8px);
     -webkit-filter: blur(2px);
 }
+
+.scoreContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scoreWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #ECF0F3;
+    opacity: 50%;
+    width: 300px;
+    height: 100px;
+    border-radius: 40px;
+    margin: 20px 20px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+}
+
+.scoreLabel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Cambria Math', sans-serif;
+}
+
+.score {
+    display: flex;
+    font-size: 70px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+}

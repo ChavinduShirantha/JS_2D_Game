@@ -1,5 +1,6 @@
 let roadPositionY = 0;
 let moveRoadAnimationId = 0;
+let score = 0;
 
 let sound = new Audio("../assets/audio/Theme2.mp3");
 
@@ -10,6 +11,8 @@ function moveRoad() {
     moveRoadAnimationId = setInterval(function () {
         roadPositionY = roadPositionY + 20;
         $("#moveRoad").css("background-position-y", +roadPositionY + "px");
+        score++;
+        $("#score").text(score);
     }, 100);
 }
 
