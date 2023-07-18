@@ -79,7 +79,6 @@ function winResults() {
 
 let myCar = document.getElementById("car");
 
-
 window.addEventListener("keydown", function (e) {
     if (e.keyCode == "39") {
         let moveRight = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"))
@@ -138,6 +137,12 @@ window.addEventListener("keydown", function (e) {
     }
 });
 
+let enemyCar = document.getElementById("enemyCar");
+
+enemyCar.addEventListener("animationiteration", function(){
+    let random = ((Math.floor(Math.random() * 3)) * 250)
+    enemyCar.style.left = random + "px";
+})
 
 
 let loader = document.getElementById("loader");

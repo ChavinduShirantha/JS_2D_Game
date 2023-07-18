@@ -249,3 +249,36 @@ button#btnSoundOff:hover {
         opacity: 1;
     }
 }
+
+.enemyCar {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-top: 350px;
+    background-size: cover;
+    z-index: 5;
+}
+
+#enemyCar{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    animation: move 4s linear  infinite  ;
+}
+
+#enemyCar>img{
+    height: 200px;
+    width: 100px;
+}
+
+@keyframes move {
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 150vh;
+    }
+
+}
