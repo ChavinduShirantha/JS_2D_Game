@@ -1,9 +1,10 @@
 .road {
-    width: 48vw;
+    width: 750px;
     height: 100vh;
     background-image: url("../img/lane.png");
     background-size: cover;
     position: absolute;
+    overflow: hidden;
     left: 0;
     right: 0;
     margin: auto;
@@ -139,7 +140,6 @@ button#btnSoundOff:hover {
 
 #loader > div > img {
     width: 60em;
-    /*height: 40em;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -152,7 +152,7 @@ button#btnSoundOff:hover {
     height: 200px;
     width: 250px;
     position: relative;
-    top: 400px;
+    top: 450px;
     left: 250px;
     text-align: center;
 }

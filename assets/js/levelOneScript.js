@@ -77,6 +77,66 @@ function winResults() {
     blurComponents();
 }
 
+let myCar = document.getElementById("car");
+
+
+window.addEventListener("keydown", function (e) {
+    if (e.keyCode == "39") {
+        let moveRight = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"))
+        if (moveRight < 500) {
+            myCar.style.left = (moveRight + 250) + "px"
+        }
+    }
+
+    if (e.keyCode == "37") {
+        let moveLeft = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"))
+        if (moveLeft > 0) {
+            myCar.style.left = (moveLeft - 250) + "px"
+        }
+    }
+
+    if (e.keyCode == "38") {
+        let moveTop = parseInt(window.getComputedStyle(myCar).getPropertyValue("top"))
+        if (moveTop < 600) {
+            myCar.style.top = (moveTop - 10) + "px"
+        }
+    }
+
+    if (e.keyCode == "40") {
+        let moveBottom = parseInt(window.getComputedStyle(myCar).getPropertyValue("top"))
+        if (moveBottom > 0) {
+            myCar.style.top = (moveBottom + 10) + "px"
+        }
+    }
+
+    if (e.keyCode == "68") {
+        let moveRight = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"))
+        if (moveRight < 500) {
+            myCar.style.left = (moveRight + 250) + "px"
+        }
+    }
+
+    if (e.keyCode == "65") {
+        let moveLeft = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"))
+        if (moveLeft > 0) {
+            myCar.style.left = (moveLeft - 250) + "px"
+        }
+    }
+
+    if (e.keyCode == "87") {
+        let moveTop = parseInt(window.getComputedStyle(myCar).getPropertyValue("top"))
+        if (moveTop < 600) {
+            myCar.style.top = (moveTop - 10) + "px"
+        }
+    }
+
+    if (e.keyCode == "83") {
+        let moveBottom = parseInt(window.getComputedStyle(myCar).getPropertyValue("top"))
+        if (moveBottom > 0) {
+            myCar.style.top = (moveBottom + 10) + "px"
+        }
+    }
+});
 
 
 
