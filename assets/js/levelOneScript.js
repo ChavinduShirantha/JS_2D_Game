@@ -13,7 +13,7 @@ function moveRoad() {
         $("#moveRoad").css("background-position-y", +roadPositionY + "px");
         score++;
         $("#score").text(score);
-        if (score >= 100) {
+        if (score >= 500) {
             winResults();
         }
     }, 100);
