@@ -265,7 +265,8 @@ button#btnSoundOff:hover {
     position: relative;
     top: 0px;
     text-align: center;
-    animation: move 4s linear  infinite  ;
+    animation: move 6s linear  infinite;
+    display: none;
 }
 
 #enemyCar>img{
@@ -281,4 +282,49 @@ button#btnSoundOff:hover {
         top: 150vh;
     }
 
+}
+
+#gameOverWrapper {
+    display: none;
+    width: 32%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 4;
+}
+
+#gameOver_title-img {
+    height: 85%;
+    background-image: url('../img/gameOver.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 5px;
+}
+
+button#btnTryAgain {
+    display: none;
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/retryIcon.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: auto;
+}
+
+button#btnTryAgain:hover {
+    width: 4%;
+    height: 8%;
 }
