@@ -15,7 +15,7 @@ function moveRoad() {
         $("#moveRoad").css("background-position-y", +roadPositionY + "px");
         score++;
         $("#score").text(score);
-        if (score >= 100) {
+        if (score >= 500) {
             winResults();
         }
     }, 100);
@@ -79,6 +79,7 @@ $('#btnPlayGame').on('click', function (e) {
 function winResults() {
     $("#gameWin_title-img").css("display", "block");
     $('#enemyCar').attr('style', 'display : none !important');
+    $(".btnNext").css("display", "block");
     pauseAll();
     blurComponents();
     victory.play();

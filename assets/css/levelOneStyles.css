@@ -328,3 +328,22 @@ button#btnTryAgain:hover {
     width: 4%;
     height: 8%;
 }
+
+.btnNext {
+    display: none;
+    width: 71px;
+    height: 71px;
+    background-image: url('../img/nextBtn.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 62%;
+    left: 69%;
+    z-index: 4;
+}
+
+.btnNext:hover {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
