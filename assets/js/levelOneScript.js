@@ -171,7 +171,7 @@ setInterval(function GameOver() {
     var enemyCarTop = parseInt(window.getComputedStyle(enemyCar).getPropertyValue("top"))
     var enemyCarLeft = parseInt(window.getComputedStyle(enemyCar).getPropertyValue("left"));
     var myCarLeft = parseInt(window.getComputedStyle(myCar).getPropertyValue("left"));
-    if ((enemyCarLeft === myCarLeft) && (enemyCarTop > -250)) {
+    if ((enemyCarLeft === myCarLeft) && (enemyCarTop > -250) && (enemyCarTop < 100)) {
         clearInterval(moveRoadAnimationId);
         moveRoadAnimationId = 0;
         defeat();
