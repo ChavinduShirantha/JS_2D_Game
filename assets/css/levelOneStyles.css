@@ -221,7 +221,7 @@ button#btnSoundOff:hover {
     bottom: 0;
     margin: auto;
     z-index: 4;
-    animation: animate 4s linear;
+    animation: animate 5s linear;
 }
 
 @keyframes animate {
@@ -307,6 +307,7 @@ button#btnSoundOff:hover {
     left: 0;
     right: 0;
     margin: 5px;
+    animation: animate 5s linear;
 }
 
 button#btnTryAgain {
