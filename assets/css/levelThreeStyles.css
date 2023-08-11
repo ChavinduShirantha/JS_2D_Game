@@ -1,0 +1,350 @@
+.road {
+    width: 750px;
+    height: 100vh;
+    background-image: url("../img/lane.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.background {
+    background-image: url("../img/winter.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.startup-instruction {
+    width: 30%;
+    max-height: 50px;
+    text-align: center;
+    padding: 60px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 10px #000000;
+    z-index: 3;
+}
+
+.startup-instruction > h1 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button#btnPlayGame {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/playButton2.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: auto;
+}
+
+button#btnPlayGame:hover {
+    width: 4%;
+    height: 9%;
+}
+
+button#btnPauseGame {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/pauseButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    margin: auto;
+}
+
+button#btnPauseGame:hover {
+    width: 4%;
+    height: 8%;
+}
+
+button#btnSoundOn {
+    display: none;
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/soundOnButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 19%;
+    margin: auto;
+}
+
+button#btnSoundOn:hover {
+    width: 4%;
+    height: 8%;
+}
+
+button#btnSoundOff {
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/soundOffButton.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 19%;
+    margin: auto;
+}
+
+button#btnSoundOff:hover {
+    width: 4%;
+    height: 8%;
+}
+
+#loader {
+    transition: opacity 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    z-index: 6;
+}
+
+#loader > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#loader > div > img {
+    width: 60em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#car {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 450px;
+    left: 250px;
+    text-align: center;
+}
+
+#car img {
+    height: 200px;
+    width: 100px;
+}
+
+.bgBlur {
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+}
+
+.scoreContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scoreWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #ECF0F3;
+    opacity: 80%;
+    width: 300px;
+    height: 100px;
+    border-radius: 40px;
+    margin: 20px 20px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+}
+
+.scoreLabel {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Cambria Math', sans-serif;
+}
+
+.score {
+    display: flex;
+    font-size: 70px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+}
+
+#gameWin_title-img {
+    display: none;
+    width: 50%;
+    height: 80%;
+    background-image: url('../img/victory.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 4;
+    animation: animate 5s linear;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.enemyCar {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-top: 350px;
+    background-size: cover;
+    z-index: 5;
+}
+
+#enemyCar{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    animation: move 5s linear  infinite;
+    display: none;
+}
+
+#enemyCar>img{
+    height: 200px;
+    width: 100px;
+}
+
+@keyframes move {
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 150vh;
+    }
+
+}
+
+#gameOverWrapper {
+    display: none;
+    width: 32%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 4;
+}
+
+#gameOver_title-img {
+    height: 85%;
+    background-image: url('../img/gameOver.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 5px;
+    animation: animate 5s linear;
+}
+
+button#btnTryAgain {
+    display: none;
+    width: 5%;
+    height: 10%;
+    background-image: url('../img/retryIcon.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: auto;
+}
+
+button#btnTryAgain:hover {
+    width: 4%;
+    height: 8%;
+}
+
+.btnNext {
+    display: none;
+    width: 71px;
+    height: 71px;
+    background-image: url('../img/nextBtn.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 62%;
+    left: 69%;
+    z-index: 4;
+}
+
+.btnNext:hover {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}

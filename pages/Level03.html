@@ -5,8 +5,51 @@
     <title>Live For Speed Game | Level Three</title>
     <link rel="icon" href="../favicon.png">
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/levelThreeStyles.css">
 </head>
 <body>
+
+<div class="road" id="moveRoad">
+    <div class="car" id="car"><img src="../assets/img/car.png" alt="car"></div>
+    <div class="enemyCar" id="enemyCar"><img src="../assets/img/enemyCar.png" alt="enemy car"></div>
+</div>
+
+<div class="background"></div>
+
+<section class="scoreContainer">
+    <section class="scoreWrapper">
+        <div class="scoreLabel">Score :
+            <div class="score" id="score">0</div>
+        </div>
+    </section>
+</section>
+
+<div id="gameWin_title-img"></div>
+
+<button id="btnPlayGame"></button>
+<button id="btnPauseGame"></button>
+<button id="btnSoundOn"></button>
+<button id="btnSoundOff"></button>
+
+<section id="gameOverWrapper">
+    <div id="gameOver_title-img"></div>
+</section>
+
+<a href="Level03.html">
+    <button id="btnTryAgain"></button>
+</a>
+
+<a href="Level03.html">
+    <button id="btnNext" class="btnNext"></button>
+</a>
+
+<div id="loader">
+    <div><img src="../assets/img/loading.gif" alt=""></div>
+</div>
+
+<script src="../assets/js/jquery-3.7.0.min.js"></script>
+<script src="../assets/js/LevelThreeScript.js"></script>
+
 
 </body>
 </html>
