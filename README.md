@@ -16,6 +16,24 @@
 * 🔗 <a href="https://chavindushirantha.github.io/Simple_2D_Game/" target="_blank">GitHub Page</a>
 * 🔗 <a href="https://www.linkedin.com/in/chavindu-shirantha-b5b857264/" target="_blank">Linked-In</a>
 
+<br>
+<p align="center" style="font-size: 24px;font-weight: bold">Screenshots</p>
+
+<br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view01.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view02.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view03.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view04.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view05.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view06.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view07.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view08.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view09.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view10.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view11.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view12.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view13.png" width="" height="" /></p><br>
+<p align="center"><img align="center" alt="" src="assets/img/screenshots/view14.png" width="" height="" /></p><br>
 
 
 <div align="center">
