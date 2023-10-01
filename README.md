@@ -41,7 +41,7 @@
 ###  
 ### Clone this repository ✅
 ```md
-https://github.com/ChavinduShirantha/Simple_2D_Game
+https://github.com/ChavinduShirantha/JS_2D_Game
 ```
 ##  Connect with me
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
